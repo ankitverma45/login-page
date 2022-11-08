@@ -1,0 +1,104 @@
+.contact{
+  margin-top: 10rem;
+  margin-bottom: 20rem;
+  display: flex;
+  justify-content: space-around;
+}
+.touch{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.contact-mee{
+  font-size: 3rem;
+  font-size: bold;
+  color: orange
+}
+input{
+  padding: 0px 8px;
+  font-weight: bold;
+}
+textarea{
+  padding: 0px 8px;
+  font-weight: bold;
+
+}
+
+.input-text{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  align-items: center;
+}
+.input-text input{
+  width: 400px;
+  border-radius: 6px;
+  border: 2px solid orange;
+}
+.input-text textarea{
+  width: 400px;
+  border-radius: 6px;
+  border: 2px solid orange;
+}
+.nam{
+  height: 50px;
+  outline: none;
+}
+.ema{
+  height: 50px;
+  outline: none;
+}
+.mess{
+  outline: none;
+  height: 100px;
+}
+.button{
+  cursor: pointer;
+  width: 90px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.2rem ;
+  color: white;
+  background-color: rgb(255, 190, 11);
+}
+
+.button:hover{
+  color: rgb(136, 119, 108);
+  background-color: rgb(255, 128, 9);
+}
+@media (max-width: 820px) {
+  .touch{
+      font-size: 1.5rem;
+  }
+  .contact-mee{
+      font-size: 1.5rem;
+  }
+  .input-text input{
+      width: 200px;
+  }
+  .input-text textarea{
+      width: 200px;
+  }
+  .nam{
+      height: 30px;
+  }
+  .ema{
+      height: 30px;
+  }
+  .mess{
+      height: 100px;
+  }
+  .button{
+      width: 90px;
+ }
+}
+@media (max-width: 390px) {
+  .touch{
+      font-size: 1.2rem;
+  }
+  .contact-mee{
+      font-size: 1.2rem;
+  }
+}
